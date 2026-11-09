@@ -1,0 +1,12 @@
+{
+  "name": "aurasound-db-tools",
+  "private": true,
+  "description": "Schema validation for db/schema.sql using PGlite (in-process PostgreSQL). Not used at runtime.",
+  "type": "module",
+  "scripts": {
+    "validate": "node validate_schema.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.2"
+  }
+}
